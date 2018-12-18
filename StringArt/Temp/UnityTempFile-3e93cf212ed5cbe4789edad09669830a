@@ -1,0 +1,524 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-nostdlib
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.CloudWebServicesModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.FacebookModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll
+-r:D:\unity\Editor\Data\Managed/UnityEditor.dll
+-r:D:\unity\Editor\Data\Managed/Unity.Locator.dll
+-r:D:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+-r:D:/unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+-r:D:/unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+-r:D:/unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll
+-r:D:/unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+-r:D:/unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+-r:D:/unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+-r:Assets/K2Examples/KinectScripts/Interfaces/Nuitrack/nuitrack.net.dll
+-r:Assets/K2Examples/KinectScripts/LZ4Sharp/LZ4Sharp.dll
+-r:Assets/K2Examples/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll
+-r:C:/Users/clzls/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/clzls/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:D:/unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll
+-r:D:/unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Runtime.Serialization.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Xml.Linq.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\UnityScript.Lang.dll
+-r:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity\Boo.Lang.dll
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_2_6
+-define:UNITY_2018_2
+-define:UNITY_2018
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_VIDEO
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_UNITY_COLLECTIONS_CHECKS
+-define:ENABLE_BURST_AOT
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+Assets/K2Examples/KinectDemos/AvatarsDemo/Scripts/CameraPitchCorrector.cs
+Assets/K2Examples/KinectDemos/AvatarsDemo/Scripts/OffsetNodeMover.cs
+Assets/K2Examples/KinectDemos/AvatarsDemo/Scripts/UserAvatarMatcher.cs
+Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/Scripts/ForegroundToImage.cs
+Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/Scripts/ForegroundToRawImage.cs
+Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/Scripts/ForegroundToRenderer.cs
+Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/Scripts/PlaneJointOverlayer.cs
+Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/Scripts/UserPlaneMover.cs
+Assets/K2Examples/KinectDemos/BackgroundRemovalDemo/Scripts/WebcamSource.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/BallMover.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/BallSpawner.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/DepthImageViewer.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/DepthSpriteViewer.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/EggMover.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/EggSpawner.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/HandColorOverlayer.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/JumpTrigger.cs
+Assets/K2Examples/KinectDemos/ColliderDemo/Scripts/SkeletonCollider.cs
+Assets/K2Examples/KinectDemos/FaceTrackingDemo/Scripts/BlendShapeFaceController.cs
+Assets/K2Examples/KinectDemos/FaceTrackingDemo/Scripts/FacePointOverlayer.cs
+Assets/K2Examples/KinectDemos/FaceTrackingDemo/Scripts/ModelFaceController.cs
+Assets/K2Examples/KinectDemos/FaceTrackingDemo/Scripts/ModelHatController.cs
+Assets/K2Examples/KinectDemos/FaceTrackingDemo/Scripts/SetBackgroundImage.cs
+Assets/K2Examples/KinectDemos/FaceTrackingDemo/Scripts/SetBackgroundRemovalImage.cs
+Assets/K2Examples/KinectDemos/FaceTrackingDemo/Scripts/SetFaceTexture.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CategorySelector.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/CloudFaceDetector.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/CloudFaceManager.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/CloudWebTools.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/ClientError.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/Face.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FaceAttributes.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FaceLandmarks.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FaceRectangle.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FacialHair.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/FeatureCoordinate.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/CloudFaceScripts/FaceObjs/HeadPose.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/ModelSelector.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/OverlayController.cs
+Assets/K2Examples/KinectDemos/FittingRoomDemo/Scripts/UserBodyBlender.cs
+Assets/K2Examples/KinectDemos/GesturesDemo/Scripts/CubeGestureListener.cs
+Assets/K2Examples/KinectDemos/GesturesDemo/Scripts/CubePresentationScript.cs
+Assets/K2Examples/KinectDemos/GesturesDemo/Scripts/ModelGestureListener.cs
+Assets/K2Examples/KinectDemos/GesturesDemo/Scripts/ModelPresentationScript.cs
+Assets/K2Examples/KinectDemos/InteractionDemo/Scripts/GrabDropScript.cs
+Assets/K2Examples/KinectDemos/InteractionDemo/Scripts/GrabRotateScript.cs
+Assets/K2Examples/KinectDemos/InteractionDemo/Scripts/GuiWindowScript.cs
+Assets/K2Examples/KinectDemos/MovieSequenceDemo/Scripts/UserMovieSequence.cs
+Assets/K2Examples/KinectDemos/OverlayDemo/Scripts/HandOverlayer.cs
+Assets/K2Examples/KinectDemos/OverlayDemo/Scripts/JointOverlayer.cs
+Assets/K2Examples/KinectDemos/OverlayDemo/Scripts/LinePainter.cs
+Assets/K2Examples/KinectDemos/OverlayDemo/Scripts/PhotoBoothController.cs
+Assets/K2Examples/KinectDemos/OverlayDemo/Scripts/PhotoShooter.cs
+Assets/K2Examples/KinectDemos/OverlayDemo/Scripts/SkeletonOverlayer.cs
+Assets/K2Examples/KinectDemos/PhysicsDemo/Scripts/BallController.cs
+Assets/K2Examples/KinectDemos/PhysicsDemo/Scripts/BarrelTrigger.cs
+Assets/K2Examples/KinectDemos/ProjectorDemo/Scripts/ProjectorCamera.cs
+Assets/K2Examples/KinectDemos/ProjectorDemo/Scripts/RoomAliveToolkit/Matrix.cs
+Assets/K2Examples/KinectDemos/ProjectorDemo/Scripts/RoomAliveToolkit/ProjectorCameraEnsemble.cs
+Assets/K2Examples/KinectDemos/ProjectorDemo/Scripts/RoomAliveToolkit/UnityUtilities.cs
+Assets/K2Examples/KinectDemos/ProjectorDemo/Scripts/SkeletonProjection.cs
+Assets/K2Examples/KinectDemos/RecorderDemo/Scripts/KinectPlayerController.cs
+Assets/K2Examples/KinectDemos/RecorderDemo/Scripts/PlayerDetectorController.cs
+Assets/K2Examples/KinectDemos/SpeechRecognitionDemo/Scripts/BotControlScript.cs
+Assets/K2Examples/KinectDemos/SpeechRecognitionDemo/Scripts/GameControlScript.cs
+Assets/K2Examples/KinectDemos/SpeechRecognitionDemo/Scripts/ThirdPersonCamera.cs
+Assets/K2Examples/KinectDemos/VariousDemos/Scripts/HandObjectChecker.cs
+Assets/K2Examples/KinectDemos/VariousDemos/Scripts/HeightEstimator.cs
+Assets/K2Examples/KinectDemos/VariousDemos/Scripts/KinectAudioTracker.cs
+Assets/K2Examples/KinectDemos/VariousDemos/Scripts/PoseDetectorScript.cs
+Assets/K2Examples/KinectDemos/VariousDemos/Scripts/PoseModelHelper.cs
+Assets/K2Examples/KinectDemos/VariousDemos/Scripts/SimpleHolographicCamera.cs
+Assets/K2Examples/KinectDemos/VisualizerDemo/Scripts/MousePointOverlayer.cs
+Assets/K2Examples/KinectDemos/VisualizerDemo/Scripts/SceneMeshVisualizer.cs
+Assets/K2Examples/KinectDemos/VisualizerDemo/Scripts/UserHandVisualizer.cs
+Assets/K2Examples/KinectDemos/VisualizerDemo/Scripts/UserHeadCamera.cs
+Assets/K2Examples/KinectDemos/VisualizerDemo/Scripts/UserMeshVisualizer.cs
+Assets/K2Examples/KinectScripts/AvatarController.cs
+Assets/K2Examples/KinectScripts/AvatarControllerClassic.cs
+Assets/K2Examples/KinectScripts/AvatarScaler.cs
+Assets/K2Examples/KinectScripts/BackgroundColorImage.cs
+Assets/K2Examples/KinectScripts/BackgroundDepthImage.cs
+Assets/K2Examples/KinectScripts/BackgroundRemovalManager.cs
+Assets/K2Examples/KinectScripts/BodySlicer.cs
+Assets/K2Examples/KinectScripts/Cubeman/CubemanController.cs
+Assets/K2Examples/KinectScripts/Cubeman/PointmanController.cs
+Assets/K2Examples/KinectScripts/FacetrackingManager.cs
+Assets/K2Examples/KinectScripts/Filters/BoneOrientationsConstraint.cs
+Assets/K2Examples/KinectScripts/Filters/JointPositionsFilter.cs
+Assets/K2Examples/KinectScripts/Filters/JointVelocitiesFilter.cs
+Assets/K2Examples/KinectScripts/ForegroundBlender.cs
+Assets/K2Examples/KinectScripts/HeadMover.cs
+Assets/K2Examples/KinectScripts/InteractionInputModule.cs
+Assets/K2Examples/KinectScripts/InteractionManager.cs
+Assets/K2Examples/KinectScripts/Interfaces/DepthSensorInterface.cs
+Assets/K2Examples/KinectScripts/Interfaces/DummyK2Interface.cs
+Assets/K2Examples/KinectScripts/Interfaces/Kinect1Interface.cs
+Assets/K2Examples/KinectScripts/Interfaces/Kinect2Interface.cs
+Assets/K2Examples/KinectScripts/Interfaces/Kinect2UwpInterface.cs
+Assets/K2Examples/KinectScripts/Interfaces/Nuitrack/NuitrackLoader.cs
+Assets/K2Examples/KinectScripts/Interfaces/NuitrackInterface.cs
+Assets/K2Examples/KinectScripts/Interfaces/OrbbecAstraInterface.cs
+Assets/K2Examples/KinectScripts/Interfaces/OrbbecAstraMapper.cs
+Assets/K2Examples/KinectScripts/KinectDataClient.cs
+Assets/K2Examples/KinectScripts/KinectDataServer.cs
+Assets/K2Examples/KinectScripts/KinectGestures.cs
+Assets/K2Examples/KinectScripts/KinectInterop.cs
+Assets/K2Examples/KinectScripts/KinectManager.cs
+Assets/K2Examples/KinectScripts/KinectRecorderPlayer.cs
+Assets/K2Examples/KinectScripts/MultiScene/LoadFirstLevel.cs
+Assets/K2Examples/KinectScripts/MultiScene/LoadLevelWhenNoUser.cs
+Assets/K2Examples/KinectScripts/MultiScene/LoadLevelWhenUserDetected.cs
+Assets/K2Examples/KinectScripts/MultiScene/LoadLevelWithDelay.cs
+Assets/K2Examples/KinectScripts/MultiScene/LocateAvatarsAndGestureListeners.cs
+Assets/K2Examples/KinectScripts/PortraitBackground.cs
+Assets/K2Examples/KinectScripts/Samples/CameraRollFixer.cs
+Assets/K2Examples/KinectScripts/Samples/FollowUserRotation.cs
+Assets/K2Examples/KinectScripts/Samples/GetFacePointsDemo.cs
+Assets/K2Examples/KinectScripts/Samples/GetFaceSmileStatus.cs
+Assets/K2Examples/KinectScripts/Samples/GetJointPositionDemo.cs
+Assets/K2Examples/KinectScripts/Samples/JointOrientationView.cs
+Assets/K2Examples/KinectScripts/Samples/JointPositionView.cs
+Assets/K2Examples/KinectScripts/Samples/K2SensorChecker.cs
+Assets/K2Examples/KinectScripts/Samples/MouseControl.cs
+Assets/K2Examples/KinectScripts/Samples/PointCloudView.cs
+Assets/K2Examples/KinectScripts/Samples/RaiseHandListener.cs
+Assets/K2Examples/KinectScripts/Samples/SequentialGestureListener.cs
+Assets/K2Examples/KinectScripts/Samples/SimpleBackgroundRemoval.cs
+Assets/K2Examples/KinectScripts/Samples/SimpleGestureListener.cs
+Assets/K2Examples/KinectScripts/Samples/SimpleInteractionListener.cs
+Assets/K2Examples/KinectScripts/Samples/SimplePoseListener.cs
+Assets/K2Examples/KinectScripts/Samples/SimpleVisualGestureListener.cs
+Assets/K2Examples/KinectScripts/SpeechErrorHandler.cs
+Assets/K2Examples/KinectScripts/SpeechManager.cs
+Assets/K2Examples/KinectScripts/Utilities/AsyncTask.cs
+Assets/K2Examples/KinectScripts/VisualGestureManager.cs
+"Assets/K2Examples/Standard Assets/CameraIntrinsics.cs"
+"Assets/K2Examples/Standard Assets/CollectionMap.cs"
+"Assets/K2Examples/Standard Assets/EventPump.cs"
+"Assets/K2Examples/Standard Assets/ExceptionHelper.cs"
+"Assets/K2Examples/Standard Assets/INativeWrapper.cs"
+"Assets/K2Examples/Standard Assets/KinectBuffer.cs"
+"Assets/K2Examples/Standard Assets/KinectFaceSpecialCases.cs"
+"Assets/K2Examples/Standard Assets/KinectSpecialCases.cs"
+"Assets/K2Examples/Standard Assets/KinectVisualGestureBuilderSpecialCases.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/CaptureStatusChangedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/CollectionStatusChangedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceAlignment.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceAlignmentQuality.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceFrame.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceFrameFeatures.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceFrameResult.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceModel.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilder.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilderAttributes.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilderCaptureStatus.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceModelBuilderCollectionStatus.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceModelData.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FacePointType.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceProperty.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceShapeAnimations.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/FaceShapeDeformations.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrame.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/HighDefinitionFaceFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/HighDetailFacePoints.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/KinectFaceUnityAddinUtils.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/RectI.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/Face/TrackingIdLostEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/ContinuousGestureResult.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/DiscreteGestureResult.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/Gesture.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/GestureType.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/KinectVisualGestureBuilderUnityAddinUtils.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/TrackingIdLostEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderDatabase.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrame.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Microsoft/Kinect/VisualGestureBuilder/VisualGestureBuilderFrameSource.cs"
+"Assets/K2Examples/Standard Assets/NativeObjectCache.cs"
+"Assets/K2Examples/Standard Assets/NativeWrapper.cs"
+"Assets/K2Examples/Standard Assets/SmartGCHandle.cs"
+"Assets/K2Examples/Standard Assets/ThreadSafeDictionary.cs"
+"Assets/K2Examples/Standard Assets/Windows/Data/PropertyChangedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/Activity.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/Appearance.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeam.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeamFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeamFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeamFrameList.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeamFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeamFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeamMode.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBeamSubFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioBodyCorrelation.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/AudioSource.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/Body.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyIndexFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyIndexFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyIndexFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyIndexFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/BodyIndexFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/CameraSpacePoint.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorCameraSettings.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorImageFormat.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/ColorSpacePoint.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/CoordinateMapper.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/CoordinateMappingChangedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/DepthFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/DepthFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/DepthFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/DepthFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/DepthFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/DepthSpacePoint.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/DetectionResult.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/Expression.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/FrameCapturedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/FrameCapturedStatus.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/FrameDescription.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/FrameEdges.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/FrameSourceTypes.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/HandState.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/InfraredFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/InfraredFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/InfraredFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/InfraredFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/InfraredFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/IsAvailableChangedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/Joint.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/JointOrientation.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/JointType.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/KinectAudioCalibrationState.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/KinectCapabilities.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/KinectSensor.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/KinectUnityAddinUtils.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/LongExposureInfraredFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/LongExposureInfraredFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/LongExposureInfraredFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/LongExposureInfraredFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/LongExposureInfraredFrameSource.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/MultiSourceFrame.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/MultiSourceFrameArrivedEventArgs.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/MultiSourceFrameReader.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/MultiSourceFrameReference.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/TrackingConfidence.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/TrackingState.cs"
+"Assets/K2Examples/Standard Assets/Windows/Kinect/Vector4.cs"
+Assets/KinectClub/Fractal/KochGenerator.cs
+Assets/KinectClub/Fractal/KochLine.cs
+Assets/KinectClub/Scripts/AudioVisualizer.cs
+Assets/KinectClub/Scripts/BodyShapeFx.cs
+Assets/KinectClub/Scripts/JointLineRenderer.cs
+Assets/KinectClub/Scripts/JointParticles.cs
+Assets/KinectClub/Scripts/PrepareAudioSourcce.cs
+Assets/KinectClub/Scripts/RaiseHandsUp_left.cs
+Assets/KinectClub/Scripts/RaiseHandsUp_right.cs
+Assets/KinectClub/Scripts/VolumCtrl.cs
+Assets/LineTrailer/LineTrail.cs
+Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs
+Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs
+Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs
+Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs
+Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs
+Assets/PostProcessing/Runtime/Components/BloomComponent.cs
+Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs
+Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs
+Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs
+Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs
+Assets/PostProcessing/Runtime/Components/DitheringComponent.cs
+Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs
+Assets/PostProcessing/Runtime/Components/FogComponent.cs
+Assets/PostProcessing/Runtime/Components/FxaaComponent.cs
+Assets/PostProcessing/Runtime/Components/GrainComponent.cs
+Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs
+Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs
+Assets/PostProcessing/Runtime/Components/TaaComponent.cs
+Assets/PostProcessing/Runtime/Components/UserLutComponent.cs
+Assets/PostProcessing/Runtime/Components/VignetteComponent.cs
+Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs
+Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs
+Assets/PostProcessing/Runtime/Models/BloomModel.cs
+Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs
+Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs
+Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs
+Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs
+Assets/PostProcessing/Runtime/Models/DitheringModel.cs
+Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs
+Assets/PostProcessing/Runtime/Models/FogModel.cs
+Assets/PostProcessing/Runtime/Models/GrainModel.cs
+Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs
+Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs
+Assets/PostProcessing/Runtime/Models/UserLutModel.cs
+Assets/PostProcessing/Runtime/Models/VignetteModel.cs
+Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs
+Assets/PostProcessing/Runtime/PostProcessingComponent.cs
+Assets/PostProcessing/Runtime/PostProcessingContext.cs
+Assets/PostProcessing/Runtime/PostProcessingModel.cs
+Assets/PostProcessing/Runtime/PostProcessingProfile.cs
+Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs
+Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs
+Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs
+Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs
+Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs
+Assets/Scripts/AudioPeer.cs
+Assets/Scripts/AudioPeer_Ori.cs
+Assets/Scripts/AudioPeer1.cs
+Assets/Scripts/DrawLines.cs
+Assets/Scripts/Kinect/BodyTrackingObj.cs
+Assets/Scripts/Kinect/HeartInteraction.cs
+Assets/Scripts/LineManager.cs
+Assets/Scripts/RotateObj.cs
+-lib:D:\unity\Editor\Data\MonoBleedingEdge\lib\mono\unity
